@@ -49,13 +49,11 @@
 2. **Установите зависимости проекта:**  
 
 ```bash
+
 git clone https://github.com/attent10nc/ThreatRadar.git
 cd ThreatRadar
-python -m venv venv          # Создаем виртуальное окружение (опционально)
-# Активируем окружение
-# Windows
+python -m venv venv          
 venv\Scripts\activate
-# Linux/macOS
 source venv/bin/activate
 
 pip install -r requirements.txt
@@ -102,4 +100,4 @@ HARD - python main.py 10.0.0.5 -m pentest -o audit_results
 
 🌍 Supported Languages
         Russian
-<p align="center" style="font-size:0.9rem; color:#555;"> © 2026 ThreatRadar — Network Threat Monitoring Tool </p> ```
+<p align="center" style="font-size:0.9rem; color:#555;"> © 2026 ThreatRadar — Network Threat Monitoring Tool </p> 
