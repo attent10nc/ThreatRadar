@@ -59,6 +59,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 pip install -r requirements.txt
+```
 
 Установите Nmap (обязательно для анализа портов)
 -Windows: nmap.org/download.html
